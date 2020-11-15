@@ -2,7 +2,7 @@ import React from 'react'
 import AudioPlayer from 'react-modular-audio-player';
 
 let playlist = [
-  { src: "/music.mp3",
+  { src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     title: "Song",
     artist: "Singer" },
   { src: "/moreMusic.mp3",
