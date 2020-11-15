@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@500&display=swap");
+
+.NavBarContainer {
+  background-color: #dadada;
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #a2a2a2;
+}
+
+.NavLinks {
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+}
+
+.NavLink {
+  padding-right: 10px;
+}
+
+.NavTitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  margin: auto;
+  padding-right: 150px;
+  color: #575757;
+}
+
+.navsearch {
+  margin-right: 13px;
+  height: 2rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #ededed;
+}

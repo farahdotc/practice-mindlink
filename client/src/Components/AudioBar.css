@@ -1,0 +1,10 @@
+.tier-top {
+  background-color: #f0f0f0;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.tier-bottom {
+  background-color: #b3b3b3;
+  height: 4rem;
+}
