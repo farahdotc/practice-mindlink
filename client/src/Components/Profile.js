@@ -3,6 +3,9 @@ import React from 'react'
 const Profile = () => {
   return (
     <div>
+      <a href='/update'>Update Profile</a>
+      <a href='/addmedia'>Add Media</a>
+      <a href='/gigs/post'>Post a Gig</a>
     <div id='profilecontainer'>
       <div id='profilecircle'></div>
       <div id='profilename'><p>ARTIST NAME</p></div>

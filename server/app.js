@@ -1,4 +1,4 @@
-
+require('./db/config/index');
 const express = require('express'),
   app = express(),
   openRoutes = require('./routes/open');
