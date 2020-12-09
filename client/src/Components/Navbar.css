@@ -1,12 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 .NavBarContainer {
-  background-color: #dadada;
+  background: linear-gradient(180deg, #141275 0%, rgba(15, 14, 78, 0.55) 100%);
   width: 100vw;
   height: 4rem;
   display: flex;
   align-items: center;
 }
+
+.NavTitle {
+  font-family: "Audiowide", cursive;
+  font-size: 1.6rem;
+  margin: 5px 100px 15px 25px;
+  /* padding-right: 150px; */
+  color: #fdfdfd;
+}
+
 a {
   text-decoration: none;
   color: #a2a2a2;
@@ -20,21 +31,59 @@ a {
 }
 
 .NavLink {
+  color: #fffcfc;
   padding-right: 10px;
 }
 
-.NavTitle {
-  font-family: "Work Sans", sans-serif;
-  font-size: 2rem;
-  margin: auto;
-  padding-right: 150px;
-  color: #575757;
+.navBarRight {
+  display: flex;
+  align-items: center;
+  margin-left: 170px;
+  color: #ffffff;
 }
 
-.navsearch {
+.uploadlink {
   margin-right: 13px;
-  height: 2rem;
-  border-radius: 8px;
-  border: none;
-  background-color: #ededed;
+  height: 40px;
+  width: 115px;
+  border-radius: 6px;
+  border: 1px solid #fffcfc;
+  text-align: center;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+
+#navuser {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url("https://i.pinimg.com/474x/a6/2f/ff/a62fff451fee32c067bf1b9118fbb18e.jpg");
+  background-size: cover;
+  margin: 0px 20px;
+}
+
+#navName {
+  font-family: "Open Sans", sans-serif;
+  height: 19px;
+  font-size: 18px;
+  color: #fffcfc;
+}
+
+#navbell {
+  width: 22px;
+  height: 24px;
+  background-image: url("../Images/Nav/bell.png");
+  color: #ffffff;
+  margin: 0px 37px;
+  background-size: cover;
+}
+
+#navdm {
+  width: 28px;
+  height: 23px;
+  background-image: url("../Images/Nav/dm.png");
+  color: #ffffff;
+  background-size: cover;
 }
